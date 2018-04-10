@@ -22,8 +22,6 @@ def init_fball(csv_file_name=FB_FILE_NAME):
             r[6] = float(r[6])           	
             fb_seasons.append(r)
 
-
-
 def get_fball_seasons(sortby='year', sortorder='desc'):
     if sortby == 'year':
         sortcol = 1

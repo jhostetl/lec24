@@ -15,7 +15,6 @@ def index():
         </ul>
     '''
 
-
 @app.route('/fball', methods=['GET', 'POST'])
 def fball():
     if request.method == 'POST':
